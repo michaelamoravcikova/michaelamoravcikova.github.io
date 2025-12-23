@@ -1,0 +1,65 @@
+a[href]{
+    color:black;
+    text-decoration: none;
+    font-family: "Avenir Next";
+}
+
+ul.main-links-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50px;
+    top: 75px;
+}
+
+nav.exhibitions-nav ul.main-links-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+div.main-nav-div{
+    position: sticky;
+    top: 0;
+    height: 150px;
+}
+
+div.main-nav-div a.current{
+    border-bottom: 2px solid black;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 30em;
+    margin: 0 auto 3em auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.carousel-exhibitions{
+    width: 100%;
+    max-width: 50em;
+    margin: 0 5em 5em auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
