@@ -8,6 +8,12 @@ a[href]:hover{
     opacity: 0.5;
 }
 
+li{
+    color:black;
+    text-decoration: none;
+    font-family: "Avenir Next";
+}
+
 a.instagram-link {
     transition: all 0.3s ease;
     opacity: 0.5;
@@ -36,6 +42,15 @@ nav.exhibitions-nav ul.main-links-list{
     top: 100px;
 }
 
+nav.texts-nav ul.main-links-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 200px;
+    top: 168px;
+}
+
 div.main-nav-div{
     position: sticky;
     top: 0;
@@ -56,6 +71,16 @@ div.main-nav-div a.current{
 }
 
 .carousel-exhibitions{
+    width: 100%;
+    max-width: 50em;
+    margin: 0 5em 5em auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+.carousel-ae{
     width: 100%;
     max-width: 50em;
     margin: 0 5em 5em auto; 
@@ -96,6 +121,19 @@ div.main-nav-div a.current{
     max-width: 400px;
 }
 
+.press-text {
+    position: absolute;
+    left: 200px;
+    top: 194px;
+    font-family: "Avenir Next";
+}
+
+.ae-text {
+    position: absolute;
+    left: 200px;
+    top: 130px;
+    font-family: "Avenir Next";
+}
 
 .bottom-text {
     width: 100%;
